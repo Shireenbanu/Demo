@@ -1,0 +1,25 @@
+<%= form_with model: @customer do |form| %>
+    <div>
+    <div>
+      <%= form.label :name %><br>
+      <%= form.text_field :name %>
+    </div>
+  
+    <div>
+      <%= form.label :phone%><br>
+      <%= form.text_area :phone %>
+    </div>
+    
+    <div>
+    <%= form.label :email %><br>
+    <%= form.text_area :email %>
+    </div>
+
+    
+    <div>
+      <%= form.submit "SignUp" %>
+    </div>
+  <% end %>
+
+  <%= link_to "Click to Add Address", address_path %>
+  </div>

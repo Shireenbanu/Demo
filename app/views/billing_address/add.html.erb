@@ -1,0 +1,12 @@
+<% @billing.each do |bill|%>  
+    <ul>
+    <li>  
+    <label>quantity: </label>
+    <%= bill.billing_address %>
+    </li>
+    <li>
+    <label>Bill Created At: </label>
+    <%= bill.created_at %>
+    </li>
+    <% end %>            
+    </ul>

@@ -1,0 +1,27 @@
+<h1>Products Available are....</h1>
+<ul>
+
+  <% @product.each do |product|%>
+    <form action='/order' accept-charset="UTF-8" method = "get">
+    <li>
+    <label>MRP :</label>
+    <%= product.MRP %>
+    </br>
+    <label>quantity: </label>
+    <%= product.quantity %>
+    </br>
+    <label>Discount: </label>
+    <%= product.discount %>
+    </br>
+    <label>Netprice: </label>
+    <%= product.netprice %>
+    </br>
+    </li>
+    <div style = "margin-left:100px">
+    <input type = "submit" value ="Add"/>
+    </div>
+    </form>
+    
+    <% end %>
+    
+</ul>

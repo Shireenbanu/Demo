@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  MRP: MyString
+  quantity: MyString
+  discount: MyString
+  netprice: MyString
+
+two:
+  MRP: MyString
+  quantity: MyString
+  discount: MyString
+  netprice: MyString
