@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Editor: vscode editor
 
-Things you may want to cover:
+Ruby-version: ruby 2.3.3p222
 
-* Ruby version
+Rails-version: Rails 5.1.7
 
-* System dependencies
+Database: Embeded sqlite with ruby installer
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
